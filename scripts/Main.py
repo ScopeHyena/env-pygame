@@ -3,6 +3,7 @@ from Settings import *
 from Levels import Level
 
 pygame.init()
+
 screen = pygame.display.set_mode((screenWidth, screenHeight))
 clock = pygame.time.Clock()
 level = Level(levelMap, screen)
